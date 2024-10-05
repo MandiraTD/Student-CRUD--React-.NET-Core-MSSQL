@@ -1,0 +1,78 @@
+
+
+table {
+    width: 70%;
+    margin: 0 auto; /* Center the table */
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: rgb(32, 94, 73);
+    color: whitesmoke;
+    padding: 5px;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Light gray color for odd rows */
+}
+
+button{
+    width: 5rem;
+    padding: 2px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    color: white;
+    font-weight: 600;
+}
+.upbtn{
+    background-color: blue;
+}
+.delbtn{
+    background-color: brown;
+}
+.addbtn{
+   
+    background-color: rgb(20, 8, 61);
+    width: 10rem;
+    padding: 7px;
+    margin-inline-start: 35rem;
+    margin-top: 5rem;
+    
+}
+.card{
+    background-color: rgb(225, 224, 235);
+    margin: 0 auto; 
+    border-radius: 10px;
+    border: 2px solid rgb(188, 188, 199);
+    width: 60%;
+    height: auto;
+    padding: 20px;
+    margin-top: 30px;
+}
+label{
+    margin: 10px;
+    font-weight: 600;
+}
+input{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(219, 218, 226);
+    height: 40px;
+   
+    padding: 10px;
+}
+.updtbtn{
+    width: 20rem;
+    background-color: green;
+    color: white;
+    font-weight: 400;
+    margin: 10px;
+}
+.managebtn{
+    width: 30rem;
+    background-color: rgb(34, 133, 133);
+}
